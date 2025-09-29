@@ -8,7 +8,7 @@
 ## 🔧 Как настроить
 
 1. **В Audio Mixer создайте группу** (например, `Music` или `SFX`).  ![Screen1](Assets/SimpleAudioSystem/Screens/1AddGroup.jpg)
-2. **Экспонируйте параметр громкости** и дайте ему имя (например, `MusicVol`).  
+2. **Экспонируйте параметр громкости** и дайте ему имя (например, `Music`).  
    → *Это имя — ваш **ключ**.*  
    ![Screen2](Assets/SimpleAudioSystem/Screens/2AddExpose.jpg)
    ![Screen3](Assets/SimpleAudioSystem/Screens/3RenameExposed.jpg)
