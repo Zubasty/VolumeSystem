@@ -40,12 +40,7 @@ public class AudioSettingsUI : MonoBehaviour
         PlayerPrefs.SetFloat(_key, linearValue);
         PlayerPrefs.Save();
         
-        float dB = LinearToDecibels(linearValue);
+        float dB = AudioUtils.LinearToDecibels(linearValue);
         _masterMixer.SetFloat(_key, dB);
-    }
-
-    private float LinearToDecibels(float linear)
-    {
-        return linear <= 0.0001f ? -80f : Mathf.Log10(linear) * 20f;
     }
 }
